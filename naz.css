@@ -1,0 +1,257 @@
+*margin{
+	padding: 0;
+	margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height:100vh ;
+    width:100% ;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url('pics/ahri.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background: #98B4AA;
+    border border-radius: 6px;
+    color: #000;
+}
+.text-box{
+	width: 90px0;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text-box h1{
+	font-size: 102%;
+}
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 24px;
+	color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 13px 34px;
+    font-size: 13px; 
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transform: 1s;
+}
+@media(max-width: 700px)
+.text-box h1{
+    font-size: 102%;
+}
+nav ul li{
+    display: block;
+}
+nav links{
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    left: 0;
+    text-align: left;
+    z-index: 2;
+}
+.HOME{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+home.h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+home.p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 220px;
+    padding: 10px;
+}
+.row{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: 50%;
+}
+}
+.h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.HOME-col{
+    flex-basis: basis 21%;
+    background: #f44336;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.HOME-col:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.tf{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+tf.h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+tf.p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 220px;
+    padding: 10px;
+}
+tf.row{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
+}
+.tf-col{
+    flex-basis: basis 21%;
+    background: #f44336;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.tf-col:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.gg{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+gg.h1{
+    font-size: 36px;
+    font-weight: 600; 
+}
+.gg-col{
+    flex-basis: basis 21%;
+    background: #f44336;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+fc.h1{
+    text-align: center;
+}
+
+/*ABOUT US */
+.sub-header{
+    min-height:100vh ;
+    width:100% ;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url('pics/shad.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.about-us{
+    width: 88%;
+    margin: auto;
+    padding-top: 80;
+    padding bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+    font-size: 18px;
+}
+.about-col video{
+    width: 100%;
+}
+/*learnMore */
+.sub-header{
+    min-height:100vh ;
+    width:100% ;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url('pics/ashe.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.Lm-us{
+    width: 88%;
+    margin: auto;
+    padding-top: 80;
+    padding bottom: 50px;
+}
+.Lm-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.Lm-col img{
+    width: 100%;
+}
+.Lm-col h1{
+    padding-top: 0;
+}
+.Lm-col p{
+    padding: 15px 0 25px;
+    font-size: 18px;
+}
